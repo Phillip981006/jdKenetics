@@ -1,0 +1,53 @@
+.business_description{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 2vw;
+    text-align: center;
+    
+}
+.in_action_img{
+    width:30vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: aqua;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin:none !important
+}
+.in_action_container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.sub_heading{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin: 3vw;
+    text-align: center;
+
+}
+.services_list{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    text-align: left;
+}
+.services_list_right{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 2vw;
+    text-align: left;
+    border-left: solid;
+    border-width: 2px;
+    border-left-color: aqua;
+}
+.no-bullets {
+    list-style: none;
+    padding-left: 0; 
+  }
+  

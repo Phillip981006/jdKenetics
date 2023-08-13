@@ -1,0 +1,32 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+
+.logo{
+    width: 23vw;
+    min-width: 150px;
+}
+a{
+    text-decoration: none;
+}
+.brickWall{
+    background-image: url("../../assets/brickWall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vw;
+    min-height: 200px;
+}
+.believe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 20vw;
+    min-height: 200px;
+}
