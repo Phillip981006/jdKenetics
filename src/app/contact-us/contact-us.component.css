@@ -47,3 +47,94 @@
     margin-bottom: 20px;
     color:white
 }
+
+.sub_heading{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin: 3vw;
+    text-align: center;
+
+}
+.services_list{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    text-align: left;
+}
+.services_list_right{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 2vw;
+    text-align: left;
+    border-left: solid;
+    border-width: 2px;
+    border-left-color: aqua;
+}
+.no-bullets {
+    list-style: none;
+    padding-left: 0; 
+  }
+  .comp_logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .company_logo{
+    width: 200px;
+    height:200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+  }
+
+@media (max-width: 600px) {
+
+    .contact_us_form{
+        width: 100% !important;
+    }
+
+    .in_action_img{
+        width: 100vw;
+    }
+
+    .company_logo{
+        height: 100%;
+       width: 100px;
+        background-color: white;
+        padding: 10px;
+        margin: 20px;
+      }
+
+      .business_description{
+        font-size: 5vw;
+        margin: none;
+    }
+
+    .services_lists{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services_list_right{
+        width: 100vw;
+        text-align: center;
+        margin-top: -15px;
+    }
+    .services_list{
+        width: 100vw;
+        text-align: center;
+        margin-top: 15px ;
+    }
+}
+
+.company_logo:hover{
+    transform: scale(1.3,1.3);
+}
+
+.company_logo:active{
+transform: scale(1.1,1.1);
+}
