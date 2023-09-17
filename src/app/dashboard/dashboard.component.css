@@ -31,7 +31,26 @@ a{
     min-height: 200px;
 }
 
+
+
+
 .social_media_icon{
     width: 45px;
     height:45px;
+}
+
+.social_media_icon:hover{
+    transform: scale(1.3, 1.3);
+}
+
+.social_media_icon:active{
+    transform: scale(0.8, 0.8);
+}
+
+@media (max-width: 600px) {
+    .believe{
+        width: 100vw;
+        position: relative;
+        right: 15px;
+    }
 }
