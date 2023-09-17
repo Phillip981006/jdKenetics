@@ -30,3 +30,8 @@ a{
     height: 20vw;
     min-height: 200px;
 }
+
+.social_media_icon{
+    width: 45px;
+    height:45px;
+}

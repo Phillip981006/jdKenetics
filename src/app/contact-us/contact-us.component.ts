@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class ContactUsComponent {
 
+  name?: string;
+  lastname?: string;
+  email?:string;
+  contact_number?:string;
+  description?:string;
+
+
+  submit_contact_us(){
+
+    console.log(this.name);
+    console.log(this.lastname);
+    console.log(this.email);
+    console.log(this.contact_number);
+    console.log(this.description);
+  }
+
 }

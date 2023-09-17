@@ -8,6 +8,7 @@
 }
 .in_action_img{
     width:30vw;
+    height:30vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
     background-color: aqua;
@@ -50,4 +51,16 @@
     list-style: none;
     padding-left: 0; 
   }
-  
+  .comp_logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .company_logo{
+    width: 200px;
+    height:200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+  }

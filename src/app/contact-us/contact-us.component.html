@@ -1,1 +1,39 @@
-<p>contact-us works!</p>
+<div class="container my-5 ">
+    <div class="row contact_us_row " >
+        <div class="col ">
+            
+        </div>
+        <div class="col-6 contact_us_form">
+            <div class="container">
+                <h1 class="contact_us_heading" >Contact us</h1>
+                <form>
+                    <div class="input_control">
+                        <label class="contact_us_form_label" for="name"> <strong>First Name</strong> <span class="text-danger">*</span></label>
+                        <input class="contact_us_input" [(ngModel)]="name" id="name" name="name" required placeholder="First Name goes here">
+                    </div>
+                    <div class="input_control">
+                        <label class="contact_us_form_label" for="last_name"> <strong>Last Name</strong></label>
+                        <input class="contact_us_input" [(ngModel)]="lastname" id="last_name" name="last_name" placeholder="Last Name goes here">
+                    </div>
+                    <div class="input_control">
+                        <label class="contact_us_form_label" for="email"> <strong>Email</strong> <span class="text-danger">*</span></label>
+                        <input class="contact_us_input" [(ngModel)]="email" id="email" name="email" required placeholder="Your e-mail address goes here">
+                    </div>
+                    <div class="input_control">
+                        <label class="contact_us_form_label" for="contact_number"> <strong>Contact Number</strong> </label>
+                        <input class="contact_us_input" [(ngModel)]="contact_number"  id="contact_number" name="contact_number" placeholder="Your contact number goes here">
+                    </div>
+                    <div class="input_control">
+                        
+                        <textarea class="input_text_area" [(ngModel)]="description" id="description" name="description" maxlength="500" placeholder="Type message here"></textarea>
+                    </div>
+                    
+                    <button (click)="submit_contact_us()" class="contact_us_submit_button"> <strong>Submit</strong> </button>
+                </form>
+            </div>
+        </div>
+        <div class="col ">
+            
+        </div>
+    </div>
+</div>

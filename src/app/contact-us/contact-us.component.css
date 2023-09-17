@@ -1,0 +1,49 @@
+
+.contact_us_form{
+    background-color: white;
+    padding: 60px;
+}
+.contact_us_heading{
+    color:rgb(25, 0, 94);
+    text-align: center;
+    width: 100%;
+    
+    font-size: 60px;
+}
+.contact_us_img{
+    width:100%;
+}
+.contact_us_form_label{
+    color:rgb(25, 0, 94);
+    font-size: 15px;
+    margin-top: 30px;
+}
+.input_control{
+    display: flex;
+    flex-direction: column;
+}
+.input_text_area{
+    height:150px;
+    margin-top: 30px;
+}
+.contact_us_input{
+    
+    border-bottom: solid ;
+    border-bottom-color:rgb(25, 0, 94) ;
+    border-bottom-width:1px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+
+}
+.contact_us_submit_button{
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(25, 0, 94) ;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    color:white
+}
